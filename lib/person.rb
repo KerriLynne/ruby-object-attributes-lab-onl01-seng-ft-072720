@@ -7,3 +7,8 @@ class Person
     @name
   end
 end
+
+beyonce = Dog.new
+beyonce.name = "Beyonce"
+
+puts beyonce.name
