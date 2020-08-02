@@ -8,7 +8,7 @@ class Person
   end
 end
 
-beyonce = Dog.new
+beyonce = Person.new
 beyonce.name = "Beyonce"
 
 puts beyonce.name
