@@ -1,14 +1,14 @@
 class Dog
   def name=(dog_name)
-    this_dogs_name = dog.name
+    @this_dogs_name= dog.name
   end
 
   def name
-    this_dogs_name
+    @this_dogs_name
   end
 end
 
 fido= Dog.new
 fido.name = "Fido"
 
-fido.name
+puts fido.name
